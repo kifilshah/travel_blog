@@ -1,0 +1,37 @@
+
+#bg {
+background-color: black;
+filter: blur(8px);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-filter: blur(8px);
+}
+
+#twitter{
+  height: 1.5em;
+  vertical-align: middle;
+  margin: 0
+}
+#insta{
+  height: 2em;
+  vertical-align: middle;
+  margin: 0
+}
+#photo_landing{
+  height: 10em;
+  border-radius: 50%;
+}
+
+#header_bloc{
+  display: none;
+  border-radius: 2em;
+  width: 10em;
+  background-color: grey;
+  padding: 2em;
+}
+
+nav{
+  display: none;
+}
