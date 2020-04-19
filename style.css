@@ -4,6 +4,8 @@ background-image: url(bg1.jpg);
 background-height: 100%;
 background-repeat: no-repeat;
 background-position: center;
+margin: 0;
+padding: 0;
 height: 100%;
 width: 100%;
 font-family: calibri;
@@ -17,8 +19,7 @@ font-family: calibri;
   padding-bottom: 0.1em;
   border-radius: 5px;
   margin-bottom: 0;
-  margin-bo;
-}
+  }
 
 #bio{
   font-size: 0.8em;
@@ -54,67 +55,42 @@ text-align: center;
   border-radius: 50%;
 }
 
-#boxes{
-margin: auto;
+#container{
+display: flex;
+width: 30em;
 margin-top: 5em;
-width: 29.59em;}
+justify-content: center;
+align-items: stretch;
+}
 
 #header_box{
   z-index: 100;
-  float: left;
-  margin: auto;
   border-radius: 2em 0em 0em 2em;
-  width: 16em;
   background-color: #4d4d4b;
   padding: 1em;
   box-shadow: -2px 2px 1px 0px #000000;
 }
 
-#nav_box{
-float: right; }
-
 ul{
    list-style-type: none;
-   margin: 0;
-   padding: 0;}
-
+ }
 
  .nav_link{
-   z-index: -100;
    text-align: center;
    vertical-align: middle;
    text-decoration: none;
    color: #404040 ;
-
    display: block;
    background-color: #666666;
-   font-size: 2.8em;
    padding: 0.452em 0.5em;
    margin-bottom: 0.05em;
    box-shadow: 0px 2px 0px 0px #000000;
   }
-.nav_link:hover{
-    z-index: -100;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    color: #1a1a1a ;
-    display: block;
-    background-color: #4d4d4d;
-    font-size: 2.8em;
-    padding: 0.452em 0.5em;
-    margin-bottom: 0.05em;
-    box-shadow: 0px 2px 0px 0px #000000;
-   }
 
-  #nav_box li:first-child > a {
+nav li:first-child > a {
     border-radius: 0px 20px 0px 0px;
   }
 
-#nav_box li:last-child > a{
+nav li:last-child > a{
     border-radius: 0px 0px 20px 0px;
   }
-
-#link_1{
-  display: none;
-}
